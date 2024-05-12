@@ -18,7 +18,7 @@ def encrypt_image(image_path, key):
     encrypted_img = Image.fromarray(encrypted_array)
     
     # Save the encrypted image
-    encrypted_img.save("encrypted_image.png")
+    encrypted_img.save("encrypted_image.jpeg")
     print("Image encrypted successfully.")
 
 
@@ -39,7 +39,7 @@ def decrypt_image(encrypted_image_path, key):
     decrypted_img = Image.fromarray(decrypted_array)
     
     # Save the decrypted image
-    decrypted_img.save("decrypted_image.png")
+    decrypted_img.save("decrypted_image.jpeg")
     print("Image decrypted successfully.")
 
 
