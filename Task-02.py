@@ -55,7 +55,7 @@ def main():
     encrypt_image(image_path, key)
     
     # Decrypt the image
-    decrypt_image("encrypted_image.png", key)
+    decrypt_image("encrypted_image.jpeg", key)
 
 if __name__ == "__main__":
     main()
